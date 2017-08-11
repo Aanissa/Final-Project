@@ -1,0 +1,163 @@
+body{
+  background-color:#D1F2EB;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  color: inherit;
+}
+
+.container {
+ width: 1400px;
+ position: absolute;
+ /*margin: none;
+ padding: 0;*/
+}
+
+header{
+  position: fixed;
+  float: center;
+  background-color: white;
+  height: 70px;
+  width: 1400px;
+  top: 0px;
+  left: 9px;
+}
+
+.tab {
+float: right;
+width: 200px;
+height: 50px;
+margin: .75em;
+margin-top: 10px;
+font-size: 30px;
+text-align: center;
+}
+
+.tabx{
+  float: right;
+  width: 300px;
+  height: 50px;
+  margin: .75em;
+  margin-top: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+a:link, a:visited {
+  color: #3D546C;
+}
+
+a:hover {
+  color: #993299;
+}
+
+#education {
+  width: 700px;
+  height:375px;
+  float: left;
+  margin: 0;
+}
+#health{
+  width: 700px;
+  height: 375px;
+  float: right;
+  margin: 0;
+}
+#community{
+  width: 700px;
+  height: 375px;
+  float; left;
+  margin: 0;
+}
+#environment{
+  width: 700px;
+  height: 375px;
+  float: right;
+  margin: 0;
+}
+#logo {
+  width: 500px;
+  height:250px;
+  position: absolute;
+  top: 310px;
+  left: 440px;
+  z-index: -1;
+}
+
+.transparent {
+    opacity: 0.6;
+}
+.transparent:hover {
+    opacity: 1;
+}
+
+/*layering*/
+.parent {
+  position: relative;
+  top: 60px;
+  left: 4px;
+  z-index: -1;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 35px;
+  font-style: normal;
+  color: black;
+  margin-bottom: 0px;
+}
+
+.notbold{
+  font-weight:normal;
+  margin: 5px;
+  margin-top: 30px;
+  z-index: -1;
+  text-decoration: none;
+}
+
+.notboldx{
+  font-weight: normal;
+  padding: 5px;
+  z-index: -1;
+  text-decoration: none;
+}
+
+#ourgoal {
+  text-align: center;
+  padding: 40px;
+}
+h2 {
+  border-radius: 15px;
+  background:#DADADA;
+  padding-bottom: 15px;
+  margin: 0 auto;
+  width: 1325px;
+  text-align: center;
+  position: relative;
+  font-size: 50px;
+  border: solid #989898;
+}
+
+#creators {
+  float: right;
+  width: 200px;
+  height: 100px;
+  padding: 10px;
+  margin: auto;
+}
+#about {
+  text-align: center;
+  padding:0;
+  position: relative;
+  z-index: -1;
+}
+
+.break {
+  height: 60px;
+  width:1450px;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  z-index: -1;
+}
