@@ -9,16 +9,26 @@ body {
 }
 
 h1{
-  font-family: 'Alegreya Sans SC', sans-serif;
+
   font-size: 45px;
   text-decoration: underline;
   text-align: center;
   color: #ADD7C9;
+	padding: 10px;
 }
 h2{
-  font-family: 'Oxygen', sans-serif;
+	font-family: 'Alegreya Sans SC', sans-serif;
   text-align: center;
-  font-size: 20px;
+  font-size: 38px;
+	text-decoration: underline;
+}
+
+h3{
+	font-family: 'Oxygen', sans-serif;
+	color: #5B5B5B;
+	text-align: center;
+	font-style: italic;
+	font-size: 15px;
 }
 h4 {
 	font-size: 21px;
@@ -100,6 +110,7 @@ img {
 	margin-bottom: 30px;
 	font-size: 0;
 	background: whitesmoke;
+	border-radius: 20px;
 }
 span{
 	font-size: 12px;
@@ -123,11 +134,12 @@ span{
 	background: whitesmoke;
 	color: black;
 	border: 1px solid white;
+	border-radius: 15px;
 	transition: all .4s ease;
 }
 
 .courses a:hover {
-	background: #99cfe0;
+	background: #AED8CA;
 }
 
 .p, .p a {
@@ -136,7 +148,32 @@ span{
   text-align: center;
 }
 
+.filters th{
+	text-align: center;
+	font-size: 20px;
+	color:  #5B5B5B;
+}
 
+#age-filter,
+#service-filter,
+#people-filter,
+#location-filter {
+	background-color: #AED8CA;
+	border-radius: 12px;
+	border-color:  #5B5B5B;
+	width: 200px;
+	font-size: 15px;
+}
+
+.container{
+	display:block;
+	margin: auto;
+}
+
+.table{
+	display: block;
+	margin: auto;
+}
 /* MEDIA QUERIES STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -173,4 +210,11 @@ span{
 		width: 20%;
 	}
 
+}
+#logo{
+	position: absolute;
+	top: 36px;
+	right: 450px;
+	height: 80px;
+	width: 80px;
 }
