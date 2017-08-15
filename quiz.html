@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="quiz-styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Oxygen" rel="stylesheet">
+  </head>
+  <body>
+    <h1> NYConnect Oppertunity Finder </h1> 
+    <img id=logo src ="NYConnectLOGO.PNG">
+    <h2> Take this quiz to find the perfect service opportunity and corresponding organization for you! </h2>
+    <div class="wrap">
+      <div class="container">
+        <div class="row">
+          <div class="twelve columns">
+            <h4> Choose your age range : </h4>
+          </div>
+        </div><!-- end of row -->
+
+        <div class="row">
+          <div class="twelve columns">
+            <div class="programs">
+              <button class="filter-btn" data-filter=".young">12 - 14 years old </button>
+              <button class="filter-btn" data-filter=".old"> 15 - 17 years old </button>
+              <button class="filter-btn" data-filter=".oldest">18 and older </button>
+            </div>
+          </div>
+        </div><!-- end of row -->
+
+        <div class="row">
+          <div class="twelve columns">
+            <h4>Choose the type of service you are most intrested in : </h4>
+          </div>
+        </div><!-- end of row -->
+
+        <div class="row">
+          <div class="twelve columns">
+            <div class="programs">
+              <button class="filter-btn" data-filter=".allType">No preference </button>
+              <button class="filter-btn" data-filter=".environment">Environment</button>
+              <button class="filter-btn" data-filter=".education">Education</button>
+              <button class="filter-btn" data-filter=".health">Health</button>
+              <button class="filter-btn" data-filter=".community"> Community</button>
+            </div>
+          </div>
+        </div><!-- end of row -->
+
+        <div class="row">
+          <div class="twelve columns">
+            <h4>Choose the age group you would like to help : </h4>
+          </div>
+        </div><!-- end of row -->
+
+        <div class="row">
+          <div class="twelve columns">
+            <div class="programs">
+              <button class="filter-btn" data-filter=".allAge">No preference</button>
+              <button class="filter-btn" data-filter=".children">children</button>
+              <button class="filter-btn" data-filter=".youngAdult">young adults</button>
+              <button class="filter-btn" data-filter=".elderly">elderly</button>
+            </div>
+          </div>
+        </div><!-- end of row -->
+
+        <div class="row">
+          <div class="twelve columns">
+            <h4>Choose the borough you would like to help in : </h4>
+          </div>
+        </div><!-- end of row -->
+
+        <div class="row">
+          <div class="twelve columns">
+            <div class="programs">
+`             <button class="filter-btn" data-filter=".allArea">No preference</button>
+              <button class="filter-btn" data-filter=".man">Manhattan</button>
+              <button class="filter-btn" data-filter=".queens">Queens</button>
+              <button class="filter-btn" data-filter=".bronx">Bronx</button>
+              <button class="filter-btn" data-filter=".sIsland">Staten Island</button>
+              <button class="filter-btn" data-filter=".brooklyn">Brooklyn</button>
+            </div>
+          </div>
+        </div><!-- end of row -->
+
+        <div class="row">
+          <div class="twelve columns">
+            <h4>Your Matches: </h4>
+          </div>
+        </div><!-- end of row -->
+
+        <div class="row">
+          <div class="twelve columns">
+            <ul class="courses" id="mix-wrapper">
+              <li class="mix-target oldest allType allArea allAge education children brooklyn  "><a href="http://www.826nyc.org/"> 829NYC
+                <span> "a nonprofit organization dedicated to supporting students ages 6-18 with their creative and expository writing skills, and to helping teachers inspire their students to write." </span></a></li>
+              <li class="mix-target allType allArea allAge oldest environment adult man brooklyn queens bronx sIsland " ><a href="http://www.citizensclimatelo bby.org"> Citizen’s Climate Lobby
+                 <span>" A relatively new, fast growing, nonpartisan, nonprofit group with [250+] chapters across the United States and Canada. If you want to join the fight to save the planet, to save creation for your grandchildren, there is no more effective step you could take than becoming an active member of this group."
+ </span></a></li>
+              <li class="mix-target allType allArea allAge oldest health elderly man" ><a href="  http://www.lenoxhill.org
+"> Lenox Hill Neighborhood House
+                <span>"
+Lenox Hill Neighborhood House, widely recognized as one of New York's premier human services providers, is a 117-year-old settlement house that provides an extensive array of effective and integrated services--social, educational, legal, health, housing, mental health, nutritional and fitness--which significantly improve the lives of 20,000 people in need each year, ages 3 to 103, on the East Side of Manhattan
+"</span></a></li>
+              <li class="mix-target allType allArea allAge oldest community environment children elderly youngAdult man " ><a href="
+http://ny.audubon.org/ "> Audubon New York
+                <span>"Audubon's mission is to conserve and restore natural ecosystems, focusing on birds, other wildlife, and their habitats for the benefit of humanity and the earth's biological diversity." </span></a></li>
+              <li class="mix-target allType allArea allAge young old oldest community children man" ><a href="http://www.readingpartners.org ">Reading Partners
+                <span> "Reading Partners mission is to help children become lifelong readers by empowering communities to provide individualized instruction with measurable results." </span></a></li>
+              <li class="mix-target allType allArea allAge young old oldest education children man" ><a href="http://www.afsusa.org">  Go Project
+                <span> "The GO Project provides academic assistance and social services to underperforming elementary and middle school public school students in Lower Manhattan." </span></a></li>
+              <li class="mix-target allType allArea allAge oldest education youngAdult" ><a href="http://www.afsusa.org
+"> AFS-USA INC
+                <span> "ASF sponsers students from 90+ countries to experience American culture, attend high school, and share their culture."  </span></a></li>
+              <li class="mix-target allType allArea allAge old oldest environment youngAdult elderly children man " ><a href="http://www.hudsonriverpark.org
+">Hudson River Park Trust
+                <span>"The Hudson River Park Trust is charged with designing and constructing the 5-mile long park along the Hudson River which runs from Battery Park City to W. 59th St."</span></a></li>
+              <li class="mix-target allType allArea allAge young old oldest health children youngAdult elderly man" ><a href="http://www.BeTheMatch.org ">Be The Match
+                <span> "Be The Match connects patients with their donor match for a life-saving marrow or umbilical cord blood transplants. </span></a></li>
+              <li class="mix-target allType allArea allAge old oldest community youngAdult children elderly man"><a href=" http://nycommonpantry.org/"> New York Common Pantry
+                <span> "New York Common Pantry is dedicated to reducing hunger throughout New York City while promoting dignity and self-sufficiency" </span></a></li>
+
+              <li class="mix-target allType allArea allAge old oldest education health children man "><a href="https://www.cccnewyork.org/?gclid=Cj0KCQjwiLDMBRDFARIsACNmiX-d0rU4LM-ZsBYU62pZV0yQz5aQvK8l3lyCj7wVe88KJSXLYQsTflEaAin0EALw_wcB "> Association to the Benefit Children
+               <span> We educate and mobilize New Yorkers to make the city a better place for children. Our advocacy combines public policy research and data analysis with citizen action.” </span></a></li>
+              <li class="mix-target allType allArea allAge old community education children bronx " ><a href="http://www.concoursehouse.org/intern-volunteer-opportunities/"> Concourse House
+                 <span>“Concourse House, works to eliminate homelessness by providing families with safe, stable, transitional housing. “</span></a></li>
+              <li class="mix-target allType allArea allAge young community elderly children youngAdult bronx" ><a href="http://www.potsbronx.org/give-help/volunteer/"> Part of the Solution (POTS)
+                <span> “a 'one-stop shop' for social services in the Bronx that nourishes the basic needs and hungers of all who come to our door.” </span></a></li>
+              <li class="mix-target allType allArea allAge enviornment elderly children youngAdult queens" ><a href="https://www.nycgovparks.org/opportunities/volunteer"> NY Parks Queens
+                <span> “NYC Parks cleaning up a local parkland by removing debris, collecting recyclables, taking care of trees and creatively encouraging the public not to litter.” </span></a></li>
+              <li class="mix-target allType allArea allAge young old oldest enviornment brooklyn"><a href="
+http://www.greenthumbnyc.org/youth_gardener.html
+"> GreenThumb Youth Leadership Council
+                  <span> “These community gardens, now managed by neighborhood residents, provide important green space, thus improving air quality, bio–diversity, and the well–being of residents. But gardens aren’t just pretty spaces; they’re also important community resources.”  </span></a></li>
+              <li class="mix-target allType allArea allAge young old oldest education children brooklyn"><a href="
+https://www.bklynlibrary.org/support/volunteer
+"> Brooklyn Public Library
+                  <span> "Volunteers can assist librarians with youth programs. Volunteers read aloud to younger children, work with kids, and create book displays and assist staff with children’s programs." </span></a></li>
+              <li class="mix-target allType allArea allAge old oldest community children brooklyn man queens bronx sIsland"><a href="
+http://metrony.wish.org/ways-to-help/volunteering"> Make-a-Wish Foundation
+                      <span> "
+There are many different volunteer opportunities including wish-granting, speakers bureau, special events & office volunteers along with opportunities for student internships.
+" </span></a></li>
+              <li class="mix-target allType allArea allAge young old health elderly youngAdult children man sIsland brooklyn queens bronx"><a href="https://www.rmh-newyork.org/ "> Ronald Mcdonald House
+                      <span> "Ronald McDonald House New York provides temporary housing for pediatric cancer patients and their families in a strong, supportive and caring environment which encourages and nurtures the development of child-to-child and parent-to-parent support systems" </span></a></li>
+              <li class="mix-target allType allArea allAge oldest enviorment elderly children man"><a href="#"> New York Cares
+                      <span> "
+New York Cares meets pressing community needs by mobilizing caring New Yorkers in volunteer service.
+" </span></a></li>
+          <li class="mix-target allType allArea allAge oldest education brooklyn "><a href="
+https://www.camba.org/Lists/CAMBACareers/AllItems.aspx">CAMBA
+            <span> "CAMBA programs provide thousands of low income youth from pre-school through high school with academic assistance, counseling, tutoring, art, drama, music, sports, SAT and Regents help, opportunities to serve their community, internships and employment." </span></a></li>
+              <!-- <li class="mix-target allType allArea allAge"><a href="#"> 829NYC
+                      <span> "." </span></a></li>
+              <li class="mix-target allType allArea allAge"><a href="#"> 829NYC
+                      <span> "." </span></a></li>
+              <li class="mix-target allType allArea allAge"><a href="#"> 829NYC
+                      <span> "." </span></a></li>
+              <li class="mix-target allType allArea allAge"><a href="#"> 829NYC
+                      <span> "." </span></a></li> -->
+
+             </ul>
+          </div>
+        </div><!-- end of row -->
+      </div><!-- end of container -->
+    </div><!-- end of wrap -->
+
+    <footer>
+        NYConnect      Logo made with Logomakr.com
+    </footer>
+    <script src="mixitup.min.js" charset="utf-8"></script>
+    <script src="myquiz.js" charset="utf-8"></script>
+  </body>
+</html>
