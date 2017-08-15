@@ -161,10 +161,19 @@ span{
 	background-color: #AED8CA;
 	border-radius: 12px;
 	border-color:  #5B5B5B;
-	width: 150px;
+	width: 200px;
+	font-size: 15px;
 }
 
+.container{
+	display:block;
+	margin: auto;
+}
 
+.table{
+	display: block;
+	margin: auto;
+}
 /* MEDIA QUERIES STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
