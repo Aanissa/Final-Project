@@ -143,9 +143,9 @@ h2 {
 
 #ourgoal {
   text-align: center;
-  padding: 50px;
-  margin: 0 auto;
-  margin-top: 100px;
+  padding: 100px;
+  margin: 10px auto;
+  margin-top: 200px;
   background:#92CFC2;
   width: 80%;
   border-radius: 13px;
@@ -173,6 +173,7 @@ h2 {
   text-align: center;
   padding:20px;
   position: relative;
+  margin-top: 200px;
   z-index: -1;
 }
 
