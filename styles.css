@@ -2,11 +2,11 @@ body{
   background-color:#D1F2EB;
   font-family: 'Saira Extra Condensed', sans-serif;
   color: inherit;
+  margin: 0;
   margin-top: -90px;
 }
 
 .container {
- width: 1400px;
  position: absolute;
  z-index: -2;
 }
@@ -19,7 +19,7 @@ header{
   width: 1425px;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 999;
 }
 
 #logobutton {
@@ -70,27 +70,25 @@ a:hover {
 }
 
 #education {
-  width: 700px;
+  width: 50%;
   height:375px;
   float: right;
   margin: 0;
-
-
 }
 #health{
-  width: 700px;
+  width: 50%;
   height: 375px;
   float: left;
   margin: 0;
 }
 #community{
-  width: 700px;
+  width: 50%;
   height: 375px;
   float; left;
   margin: 0;
 }
 #environment{
-  width: 700px;
+  width: 50%;
   height: 375px;
   float: right;
   margin: 0;
@@ -104,12 +102,15 @@ a:hover {
   z-index: 0;
 }
 
+.transparent {
+  opacity: .8;
+}
+
 /*layering*/
 .parent {
   position: relative;
   top: 70px;
   left: 4px;
-  z-index: -1;
   padding-top: 100px;
 }
 
@@ -124,16 +125,14 @@ h2 {
 
 .notbold{
   font-weight:normal;
-  margin: 5px;
-  margin-top: 30px;
-  z-index: -1;
+  /*margin: 5px;*/
+  margin-top: auto;
   text-decoration: none;
 }
 
 .notboldx{
   font-weight: normal;
-  padding: 5px;
-  z-index: -1;
+  /*padding: 5px;*/
   text-decoration: none;
 }
 
@@ -145,18 +144,23 @@ h2 {
 #ourgoal {
   text-align: center;
   padding: 50px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background:#92CFC2;
+  width: 80%;
+  border-radius: 13px;
 }
 
 h2 {
   border-radius: 15px;
   background:#DADADA;
   padding-bottom: 15px;
-  margin: 0 auto;
-  width: 1325px;
+  width: 500px;
   text-align: center;
   position: relative;
   font-size: 50px;
-  border: solid #989898;
+  border: #989898;
+  margin: 0 auto;
 }
 
 #creators {
@@ -167,7 +171,7 @@ h2 {
 }
 #about {
   text-align: center;
-  padding:0;
+  padding:20px;
   position: relative;
   z-index: -1;
 }
@@ -181,4 +185,5 @@ p {
   text-align: center;
   font-size: 25px;
   z-index: -1;
+  style=opacity:0.5;
 }
