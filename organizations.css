@@ -61,6 +61,7 @@ a:hover {
 .notboldx{
     font-weight:normal;
     font-size: 55px;
+    padding: 1px;
 }
 
 .notbold{
@@ -82,4 +83,28 @@ a:link, a:visited {
 
 a:hover {
   color: #993299;
+}
+
+h3{
+  background-color: #87CAB3;
+  width: 150px;
+  border-radius: 4px;
+}
+
+ul{
+  border-radius: 12px;
+  background-color: #FBF6F1;
+  margin: auto;
+  width: 90%;
+  list-style-type: circle;
+  padding-bottom: 40px;
+}
+
+#education, #community, #health, #enviornment{
+  margin-bottom: 20px;
+}
+
+h2{
+  margin-top: -50px;
+  color: #3D546C;
 }
