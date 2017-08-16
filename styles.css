@@ -1,5 +1,5 @@
 body{
-  background-color:#D1F2EB;
+  background-color:#DADADA;
   font-family: 'Saira Extra Condensed', sans-serif;
   color: inherit;
   margin: 0;
@@ -146,14 +146,14 @@ h2 {
   padding: 100px;
   margin: 10px auto;
   margin-top: 200px;
-  background:#92CFC2;
+  background:#7A7A7A;
   width: 80%;
   border-radius: 13px;
 }
 
 h2 {
   border-radius: 15px;
-  background:#DADADA;
+  background: #D1F2EB;
   padding-bottom: 15px;
   width: 500px;
   text-align: center;
