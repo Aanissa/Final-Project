@@ -1,3 +1,8 @@
+body{
+  background-color:#D1F2EB;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  color: inherit;
+}
 
 header{
   position: fixed;
@@ -56,10 +61,10 @@ a:link, a:visited {
 a:hover {
   color: #993299;
 }
+
 * {
   margin:0;
   padding:0;
-  font-family:default;
   word-spacing:-2px;
 }
 
@@ -73,18 +78,16 @@ h1 {
 }
 
 h2{
-  color: #3A3A3A;
+  color:	#696969;
   text-align: center;
-  font-size: 15px;
-  width: 80%;
-  margin: auto;
+  font-size: 20px;
+  font-family: serif;
 }
 
 h3{
   color: #26ae90;
   text-align: center;
   font-size: 25px;
-  text-decoration: underline;
 }
 
 ]
@@ -109,8 +112,6 @@ h3{
   height: 370px;
   margin: auto;
   background-color: #D1F2EB;
-  border-radius: 10px;
-  margin-top: 50px;
 
 }
 .flex-item {
@@ -119,8 +120,6 @@ h3{
   margin: 20px;
   border-left: solid;
   border-right: solid;
-  border-radius: 10px;
-
 }
 
 .anissa_icons {
@@ -135,7 +134,7 @@ h3{
   height: 80px;
   align-items: center;
   margin-left: 60px;
-  margin-top:40px;
+  margin-top:95px;
 }
 .jessenia_icons {
   width: 200px;
@@ -159,6 +158,7 @@ p{
   color:	#696969;
   font-size: 20px;
   text-align: center;
+  font-family: serif;
 }
 
 }
@@ -168,7 +168,7 @@ p{
 
 .message {
 position: absolute;
-top: -775px;
+top: -700px;
 left: 0;
 width: 100%;
 height: 700px;
@@ -176,14 +176,13 @@ padding: 20px;
 transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
 overflow: hidden;
 box-sizing: border-box;
-margin-top: 10%;
-background-color:#C5C5C5;
-border: solid 1px #626262;
+margin-top: 100px;
+background color: red;
 
 }
 
 .message h1 {
-  color:black;
+  color:#26ae90;
   padding-bottom: 20px;
 }
 
@@ -209,23 +208,24 @@ border: solid 1px #626262;
   cursor:pointer;
   padding:30px;
   background: #26ae90;
-width: 400px;
-border-radius: 15px;
-padding: 8px 10px;
-color: #FFF;
-line-height:60px;
-font-size:45px;
-text-align:center;
--webkit-font-smoothing: antialiased;
-cursor: pointer;
+  width: 400px;
+  border-radius: 15px;
+  padding: 8px 10px;
+  color: #FFF;
+  line-height:60px;
+  font-size:45px;
+  text-align:center;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
   margin:20px 50px;
   transition:all 500ms ease;
   align-self: center;
+  margin: auto;
   margin-left: 35%;
-  margin-top: 200px;
+  margin-top: 10%;
 }
 #toggle + label:after {
-  content:"Click to learn more about us"
+  content:"Click to learn more about us!"
 }
 
 .container {
@@ -243,10 +243,10 @@ transition: margin 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
 
 #toggle:checked + label {
   background:#FF6969;
-    content:"Meet the Team"
+    content:"Click to meet the Team"
 }
 
 #toggle:checked + label:after {
-    background:#FF6969;
+  background:#FF6969;
   content:"Pretty cool, right?"
 }
