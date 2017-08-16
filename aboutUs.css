@@ -1,3 +1,61 @@
+
+header{
+  position: fixed;
+  float: center;
+  background-color: white;
+  height: 70px;
+  width: 1425px;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+#logobutton {
+  width:150px;
+  height:65px;
+  position: fixed;
+  top: 2px;
+  left: 100px;
+}
+
+.tab {
+float: right;
+width: 200px;
+height: 50px;
+margin: .75em;
+margin-top: 10px;
+font-size: 30px;
+text-align: center;
+}
+
+.tab1 {
+float: right;
+width: 200px;
+height: 50px;
+margin: .75em;
+margin-top: 10px;
+font-size: 30px;
+text-align: center;
+}
+
+
+.tabx{
+  float: right;
+  width: 300px;
+  height: 50px;
+  margin: .75em;
+  margin-top: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+a:link, a:visited {
+  color: #3D546C;
+}
+
+a:hover {
+  color: #993299;
+}
 * {
   margin:0;
   padding:0;
@@ -15,15 +73,18 @@ h1 {
 }
 
 h2{
-  color: 	#7B68EE;
+  color: #3A3A3A;
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
+  width: 80%;
+  margin: auto;
 }
 
 h3{
   color: #26ae90;
   text-align: center;
   font-size: 25px;
+  text-decoration: underline;
 }
 
 ]
@@ -48,6 +109,8 @@ h3{
   height: 370px;
   margin: auto;
   background-color: #D1F2EB;
+  border-radius: 10px;
+  margin-top: 50px;
 
 }
 .flex-item {
@@ -56,6 +119,8 @@ h3{
   margin: 20px;
   border-left: solid;
   border-right: solid;
+  border-radius: 10px;
+
 }
 
 .anissa_icons {
@@ -102,9 +167,8 @@ p{
 }
 
 .message {
-background color :#ff6666 ;
 position: absolute;
-top: -700px;
+top: -775px;
 left: 0;
 width: 100%;
 height: 700px;
@@ -112,11 +176,14 @@ padding: 20px;
 transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
 overflow: hidden;
 box-sizing: border-box;
+margin-top: 10%;
+background-color:#C5C5C5;
+border: solid 1px #626262;
 
 }
 
 .message h1 {
-  color:#26ae90;
+  color:black;
   padding-bottom: 20px;
 }
 
@@ -154,9 +221,11 @@ cursor: pointer;
   margin:20px 50px;
   transition:all 500ms ease;
   align-self: center;
+  margin-left: 35%;
+  margin-top: 200px;
 }
 #toggle + label:after {
-  content:"Meet the Team"
+  content:"Click to learn more about us"
 }
 
 .container {
@@ -179,5 +248,5 @@ transition: margin 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
 
 #toggle:checked + label:after {
     background:#FF6969;
-  content:"Meet the Team"
+  content:"Pretty cool, right?"
 }
