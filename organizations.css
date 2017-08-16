@@ -110,5 +110,13 @@ h2{
 }
 
 .logo {
+<<<<<<< 9b72e43004d4b6e1a88d0c14dacfd31be62f25f3
   
+=======
+  margin-left:auto;
+}
+
+li {
+  margin-top: 10px;
+>>>>>>> minor
 }

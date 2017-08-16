@@ -50,7 +50,7 @@ text-align: center;
   margin: .75em;
   margin-top: 10px;
   font-size: 30px;
-  text-align: center;
+	text-align: center;
 }
 
 
@@ -66,8 +66,6 @@ h1{
   color: #ADD7C9;
 	padding: 10px;
 }
-
-
 
 h2{
 	font-family: 'Alegreya Sans SC', sans-serif;
@@ -99,7 +97,7 @@ li {
 	margin: 0;
 }
 
-a {
+.container a {
 	font-size: 18px;
 	text-decoration: none;
 }
