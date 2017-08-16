@@ -1,5 +1,5 @@
 body{
-  background-color:#D1F2EB;
+  background-color:#9EBDB2;
   font-family: 'Saira Extra Condensed', sans-serif;
   color: inherit;
   margin: 0;
@@ -130,7 +130,9 @@ h2 {
   text-decoration: none;
 }
 
-.notboldx{
+.notboldx,
+a.notboldx,
+a.notboldx h2 {
   font-weight: normal;
   /*padding: 5px;*/
   text-decoration: none;
@@ -146,20 +148,20 @@ h2 {
   padding: 100px;
   margin: 10px auto;
   margin-top: 200px;
-  background:#92CFC2;
+  background:#E0E0E0;
   width: 80%;
   border-radius: 13px;
 }
 
 h2 {
   border-radius: 15px;
-  background:#DADADA;
+  background:#D1F2EB;
   padding-bottom: 15px;
   width: 500px;
   text-align: center;
   position: relative;
   font-size: 50px;
-  border: #989898;
+  border: #989898 solid 1px;
   margin: 0 auto;
 }
 
@@ -173,8 +175,12 @@ h2 {
   text-align: center;
   padding:20px;
   position: relative;
+  margin: auto;
   margin-top: 200px;
   z-index: -1;
+  background:#E0E0E0;
+  width: 80%;
+  border-radius: 12px;
 }
 
 .break {
